@@ -1,0 +1,59 @@
+#install important library
+pandas
+numpy
+scikit-learn
+nltk
+streamlit
+
+#to set the project run this command
+pip install -r requirements.txt
+
+#imp checkpoints
+
+#checkup point 1
+#check python version
+python --version
+
+#check point 2
+#create and activate virtual environment
+python -m venv venv
+
+##checkpoint 3
+#install
+pip install pandas numpy scikit-learn nltk streamlit
+
+##checkpoint 4
+#run
+python test_installation.py
+
+##checkpoint 5
+#put
+IMDB Dataset.csv
+#inside
+dataset/
+
+##checkpoint 6
+#run file
+python test_dataset.py
+
+#checkpoint 7
+#run and confirm
+python download_nltk.py
+
+#checkpoint 8
+#run 
+train_model.py
+
+#checkpoint 9 
+#confirm these files in folder
+model/
+├── sentiment_model.pkl
+└── tfidf_vectorizer.pkl
+
+#checkpoint 10
+#run
+python predict.py
+
+#checkpoint 11
+#run
+streamlit run app.py
